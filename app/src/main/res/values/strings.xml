@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Room Database Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="product_list">Product List</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_category">Add Category</string>
+    <string name="category_list">Category List</string>
+    <string name="product_name">Product Name <font color='#FF0000'>*</font></string>
+    <string name="product_price">Product Price <font color='#FF0000'>*</font></string>
+    <string name="product_quantity">Product Quantity <font color='#FF0000'>*</font></string>
+    <string name="category_name">Category Name <font color='#FF0000'>*</font></string>
+    <string name="product">Product</string>
+    <string name="category">Category</string>
+    <string name="error_msg">This filed is empty</string>
+</resources>
