@@ -44,10 +44,11 @@ class AddProductFragment : Fragment() {
             productViewModel.addProduct(product)
 
             findNavController().navigate(R.id.action_addProductFragment_to_productsListFragment)
+        } else {
+            if (productName.isEmpty()) layout_product_name.error = getString(R.string.error_msg)
+            if (productPrice.isEmpty()) layout_product_price.error = getString(R.string.error_msg)
+            if (productQuantity.isEmpty()) layout_product_quantity.error = getString(R.string.error_msg)
         }
-        if (productName.isEmpty()) layout_product_name.error = getString(R.string.error_msg)
-        if (productPrice.isEmpty()) layout_product_price.error = getString(R.string.error_msg)
-        if (productQuantity.isEmpty()) layout_product_quantity.error = getString(R.string.error_msg)
     }
 
 }

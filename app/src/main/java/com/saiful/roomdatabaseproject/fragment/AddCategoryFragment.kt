@@ -39,8 +39,8 @@ class AddCategoryFragment : Fragment() {
             val category = Category(0, categoryName)
             productViewModel.addCategory(category)
             findNavController().navigate(R.id.action_addCategoryFragment_to_categoryListFragment)
+        } else {
+            layout_category_name.error = getString(R.string.error_msg)
         }
-
-        layout_category_name.error = getString(R.string.error_msg)
     }
 }
